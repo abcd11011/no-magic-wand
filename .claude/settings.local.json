@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:www.oliur.com)",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(curl -s \"https://www.oliur.com\")",
+      "Bash(grep -oiE 'font[^<]{0,200}')",
+      "Bash(grep -oiE \"font-family[^;'\\\\\"]{0,80}\")"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You're in | No Magic Wand</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="assets/avatar.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=9" />
+
+  <!-- ============================================================
+       META PIXEL | NEWSLETTER CONVERSION EVENT
+       This page loads only after a successful subscribe (set it as the
+       redirect URL in your newsletter provider's form settings), so
+       firing the event here gives a clean signal.
+
+       TODO: once you have your Meta Pixel installed sitewide, fire the
+       Lead event on this page. With the base pixel already in <head> on
+       every page, you only need this one line here:
+
+         <script>fbq('track', 'Lead');</script>
+
+       (Gate it behind your cookie-consent check for EU and UK visitors.)
+  ============================================================= -->
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">No Magic Wand</a>
+      <div class="nav-links">
+        <a href="blog.html">Blog</a>
+        <a href="packages.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+
+    <div class="page-header" style="padding-top: 80px; padding-bottom: 80px;">
+      <p style="font-size: 0.85rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px;">Subscribed</p>
+      <h1>You're in.</h1>
+      <p style="color: var(--muted); margin-top: 12px; margin-bottom: 8px;">Check your inbox for a confirmation email and click the link to finish signing up. That last step keeps the list clean and your spam folder empty.</p>
+      <p style="color: var(--muted); margin-top: 0; margin-bottom: 32px;">Once you are confirmed, you will get one useful email every couple of weeks. No fluff, no growth hacks.</p>
+      <a class="btn btn-primary" href="blog.html">Read the blog while you wait</a>
+    </div>
+
+    <footer class="footer">
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="https://www.instagram.com/your-handle" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/company/your-handle" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+      <p class="footer-tag">© <span class="year-auto">2026</span> No Magic Wand · <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
