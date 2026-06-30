@@ -63,7 +63,7 @@ a { color: inherit; }
   border-bottom: 1px solid var(--border);
 }
 .nav-inner {
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 0 24px;
   height: 52px;
@@ -91,7 +91,7 @@ a { color: inherit; }
 
 /* ----------------- LAYOUT ----------------- */
 .wrap {
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 60px 24px 64px;
 }
@@ -100,8 +100,6 @@ a { color: inherit; }
   margin: 0 auto;
   padding: 60px 24px 64px;
 }
-/* Widen the nav to match content width on wide pages */
-body.wide .nav-inner { max-width: 860px; }
 
 /* ----------------- HERO ----------------- */
 .hero { text-align: center; }
