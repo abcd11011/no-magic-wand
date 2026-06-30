@@ -574,10 +574,43 @@ a { color: inherit; }
 .ask-quiet a { color: var(--accent); text-decoration: none; }
 .ask-quiet a:hover { text-decoration: underline; }
 
-.phase { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; margin: 14px 0; box-shadow: var(--shadow); }
+.phase { background: var(--surface-2); border: none; border-radius: var(--radius); padding: 20px 22px; margin: 14px 0; }
 .phase h4 { margin: 0 0 8px; font-size: 1rem; font-weight: 600; }
 .phase p { margin: 0; color: var(--muted); font-size: 0.92rem; max-width: none; }
 .phase-dur { display: block; margin-top: 12px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); font-weight: 600; }
+
+.apply-form {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px;
+  margin-top: 22px;
+  box-shadow: var(--shadow);
+}
+.apply-form h3 { margin: 0 0 4px; font-size: 1rem; }
+.apply-form .apply-form-sub { margin: 0 0 16px; color: var(--muted); font-size: 0.88rem; }
+.apply-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+.apply-form input {
+  width: 100%;
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 10px 13px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+.apply-form input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+.apply-form input[type="url"] { margin-bottom: 16px; }
+@media (max-width: 480px) {
+  .apply-form-row { grid-template-columns: 1fr; }
+}
 
 /* ----------------- CONTACT (contact.html) ----------------- */
 .contact-grid { display: grid; gap: 16px; margin-top: 8px; }
