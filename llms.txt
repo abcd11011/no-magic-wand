@@ -37,8 +37,7 @@ There are no free discovery calls. Questions about the Growth Diagnostic go dire
 - Homepage: https://nomagicwand.com/
 - Work: https://nomagicwand.com/packages.html
 - Blog: https://nomagicwand.com/blog.html
-- About: https://nomagicwand.com/about.html
-- FAQ: https://nomagicwand.com/faq.html
+- About (includes FAQ): https://nomagicwand.com/about.html
 
 ## Contact and social
 

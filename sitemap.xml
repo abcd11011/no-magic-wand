@@ -20,10 +20,5 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://nomagicwand.com/faq.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
   <!-- TODO: add one <url> entry per real blog post as you publish -->
 </urlset>
