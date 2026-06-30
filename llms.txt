@@ -30,19 +30,19 @@ Two ways to work with No Magic Wand. Both are fixed in scope and built to be exe
 
 ## How to engage
 
-There are no free discovery calls. The only pre-purchase contact is an async question link for the Growth Diagnostic and an application for the Brand and Growth Plan. Every engagement begins with paid work.
+There are no free discovery calls. Questions about the Growth Diagnostic go directly to email. The Brand and Growth Plan has an application form embedded on the packages page. Every engagement begins with paid work.
 
 ## Pages
 
 - Homepage: https://nomagicwand.com/
-- Packages: https://nomagicwand.com/packages.html
+- Work: https://nomagicwand.com/packages.html
 - Blog: https://nomagicwand.com/blog.html
 - About: https://nomagicwand.com/about.html
 - FAQ: https://nomagicwand.com/faq.html
-- Contact: https://nomagicwand.com/contact.html
 
 ## Contact and social
 
+- Email: hello@nomagicwand.com
 - LinkedIn: https://www.linkedin.com/company/your-handle
 - Instagram: https://www.instagram.com/your-handle
 - Newsletter: signup form at https://nomagicwand.com/#newsletter
